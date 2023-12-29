@@ -1,23 +1,10 @@
-import ConsultlyLogo from "../images/logos/consultly.svg";
-import AmbitLogo from "../images/logos/ambit.png";
-import BarepapersLogo from "../images/logos/barepapers.svg";
-import BimLogo from "../images/logos/bim.png";
-import CDGOLogo from "../images/logos/cdgo.png";
-import ClevertechLogo from "../images/logos/clevertech.png";
-import EvercastLogo from "../images/logos/evercast.svg";
-import Howdy from "../images/logos/howdy.png";
-import JarockiMeLogo from "../images/logos/jarocki.svg";
-import JojoMobileLogo from "../images/logos/jojomobile.png";
-import MonitoLogo from "../images/logos/monito.svg";
-import MobileVikingsLogo from "../images/logos/mv.png";
-import NSNLogo from "../images/logos/nsn.svg";
-import ParabolLogo from "../images/logos/parabol.svg";
-import TastyCloudLogo from "../images/logos/tastycloud.png";
-import YearProgressLogo from "../images/logos/yearprogress.svg";
-import Minimal from "../images/logos/minimal.svg";
+import BTPaceLogo from "../images/logos/btpace.jpeg";
+import BTLogo from "../images/logos/buzztender.jpeg";
+import DYHPLogo from "../images/logos/dyhp.png";
+import SchlederLogo from "../images/logos/schleder.png";
+import TrakLogo from "../images/logos/trakwrx.jpeg";
 import { GitHubIcon } from "@/components/icons/GitHubIcon";
 import { LinkedInIcon } from "@/components/icons/LinkedInIcon";
-import { XIcon } from "@/components/icons/XIcon";
 
 export const RESUME_DATA = {
   name: "Matthew Schleder",
@@ -69,7 +56,6 @@ export const RESUME_DATA = {
         "GCP",
       ],
       title: "Sr. Associate Software Developer → Software Developer",
-      logo: ParabolLogo,
       start: "2020",
       end: "2023",
       description:
@@ -81,7 +67,6 @@ export const RESUME_DATA = {
       badges: ["Durham, NC"],
       techUsed: ["MS SQL", "SOAP/REST API", "GitLab", "Terraform"],
       title: "Software Engineer",
-      logo: ClevertechLogo,
       start: "2017",
       end: "2020",
       description:
@@ -93,7 +78,6 @@ export const RESUME_DATA = {
       badges: ["Remote", "Contract"],
       techUsed: ["REST API", "User Interface Design"],
       title: "Software Engineer",
-      logo: JojoMobileLogo,
       start: "2018",
       end: "2018",
       description:
@@ -105,7 +89,6 @@ export const RESUME_DATA = {
       badges: ["Durham, NC"],
       techUsed: ["Spring", "Angular", "PL/SQL", "REST", "Java"],
       title: "Associate Software Engineer",
-      logo: NSNLogo,
       start: "2017",
       end: "2017",
       description:
@@ -117,7 +100,6 @@ export const RESUME_DATA = {
       badges: ["Westlake, TX"],
       techUsed: ["z/OS", "IBM Mainframes"],
       title: "Software Engineering Intern",
-      logo: NSNLogo,
       start: "2015",
       end: "2016",
       description:
@@ -181,7 +163,7 @@ export const RESUME_DATA = {
       ],
       description:
         "Multi-platform app for video-based challenges with friends, local/global groups, and the world",
-      logo: ConsultlyLogo,
+      logo: BTLogo,
       link: {
         label: "buzztender.app",
         href: "https://buzztender.app/",
@@ -192,7 +174,7 @@ export const RESUME_DATA = {
       techStack: ["Side Project", "Flutter", "Dart"],
       description:
         "Calculate Running Paces with Ease with predictive modeling for accurate timing and pace calculations",
-      logo: MonitoLogo,
+      logo: BTPaceLogo,
       link: {
         label: "BT Pace",
         href: "https://apps.apple.com/us/app/bt-pace-pace-calculator/id6450400215",
@@ -211,7 +193,7 @@ export const RESUME_DATA = {
       ],
       description:
         "Vacation planning web-app that enables anyone to create crowd-sourced shareable calendars",
-      logo: JarockiMeLogo,
+      logo: DYHPLogo,
       link: {
         label: "doyouhaveplans.com",
         href: "https://doyouhaveplans.com/",
@@ -221,7 +203,7 @@ export const RESUME_DATA = {
       title: "Schleder.us",
       techStack: ["Side Project", "Vue.js", "Netlify"],
       description: "Open-source resume site for the Schleder family",
-      logo: Minimal,
+      logo: SchlederLogo,
       link: {
         label: "schleder.us",
         href: "https://schleder.us/",
@@ -232,7 +214,7 @@ export const RESUME_DATA = {
       techStack: ["Side Project", "Java", "Swift"],
       description:
         "Developed and sold a training application to WTAMU for individualized workout predictions",
-      logo: BarepapersLogo,
+      logo: TrakLogo,
       link: {
         label: "play.google.com",
         href: "https://play.google.com/store/apps/details?id=com.treasureapps.matthew.wttrackandfield&hl=en&gl=US",
