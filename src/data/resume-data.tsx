@@ -166,7 +166,7 @@ export const RESUME_DATA = {
       logo: BTLogo,
       link: {
         label: "buzztender.app",
-        href: "https://buzztender.app/",
+        href: "https://www.buzztender.app/",
       },
     },
     {
