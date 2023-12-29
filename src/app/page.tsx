@@ -134,8 +134,10 @@ export default function Page() {
                 <CardContent className="mt-2 text-xs">
                   {work.description}
                 </CardContent>
-                <span className="flex flex-wrap gap-x-1">
-                  <h3 className="text-sm font-bold">Technologies Used:</h3>
+                <span className="mt-2 flex flex-wrap gap-x-1">
+                  <h3 className="font-extraLight text-sm">
+                    Technologies Used:
+                  </h3>
                   {work.techUsed.map((badge) => (
                     <Badge
                       variant="outline"
