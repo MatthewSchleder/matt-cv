@@ -134,6 +134,18 @@ export default function Page() {
                 <CardContent className="mt-2 text-xs">
                   {work.description}
                 </CardContent>
+                <span className="inline-flex gap-x-1">
+                  <h3 className="text-sm font-bold">Technologies Used:</h3>
+                  {work.techUsed.map((badge) => (
+                    <Badge
+                      variant="outline"
+                      className="align-middle text-xs"
+                      key={badge}
+                    >
+                      {badge}
+                    </Badge>
+                  ))}
+                </span>
               </Card>
             );
           })}
@@ -160,11 +172,18 @@ export default function Page() {
         </Section>
         <Section>
           <h2 className="text-xl font-bold">Skills</h2>
-          <div className="flex flex-wrap gap-1">
-            {RESUME_DATA.skills.map((skill) => {
-              return <Badge key={skill}>{skill}</Badge>;
-            })}
-          </div>
+          {RESUME_DATA.skills.map((skill) => {
+            return (
+              <>
+                <h2 className="text-md font-bold">{skill.title}</h2>
+                <div className="flex flex-wrap gap-1">
+                  {skill.skillItems.map((item) => {
+                    return <Badge key={item}>{item}</Badge>;
+                  })}
+                </div>
+              </>
+            );
+          })}
         </Section>
 
         <Section className="print-force-new-page scroll-mb-16">
